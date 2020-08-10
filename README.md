@@ -1,19 +1,19 @@
 # heroku-flask-deployment-guide
 Guide to deploy in heroku using flask
-https://www.youtube.com/watch?time_continue=100&v=pmRT8QQLIqk&feature=emb_logo
+https://medium.com/@gitaumoses4/deploying-a-flask-application-on-heroku-e509e5c76524
 
 Install flask and gunicorn
-pip install flask gunicorn
+$pip install flask gunicorn
 
 Upgrade pip to the latest version
-pip install --upgrade pip
+$pip install --upgrade pip
 
 Python dependencies installed
-pip freeze
+$pip freeze
 
 Python dependencies installed details added to requirements.txt
 save this file in the directory needed heroku will install necessary dependencies through this , remove uneccessary ones
-pip freeze > requirements.txt
+$pip freeze > requirements.txt
 
 Add Procfile
 
