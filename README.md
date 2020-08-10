@@ -1,5 +1,6 @@
 # heroku-flask-deployment-guide
 Guide to deploy in heroku using flask
+https://www.youtube.com/watch?time_continue=100&v=pmRT8QQLIqk&feature=emb_logo
 
 Install flask and gunicorn
 pip install flask gunicorn
@@ -11,8 +12,37 @@ Python dependencies installed
 pip freeze
 
 Python dependencies installed details added to requirements.txt
+save this file in the directory needed heroku will install necessary dependencies through this , remove uneccessary ones
 pip freeze > requirements.txt
 
 Add Procfile
 
 gunicorn lets us use html files in parallel(need to be updated)
+
+after that follow this is provided in heroku itself
+
+Install the Heroku CLI
+Download and install the Heroku CLI.
+
+If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.
+
+$ heroku login
+Create a new Git repository
+Initialize a git repository in a new or existing directory
+
+$ cd my-project/
+$ git init
+$ heroku git:remote -a covid-tracker101
+Deploy your application
+Commit your code to the repository and deploy it to Heroku using Git.
+
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+You can now change your main deploy branch from "master" to "main" for both manual and automatic deploys, please follow the instructions here.
+Existing Git repository
+For existing repositories, simply add the heroku remote
+
+$ heroku git:remote -a covid-tracker101
+
+
