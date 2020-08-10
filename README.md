@@ -14,3 +14,5 @@ Python dependencies installed details added to requirements.txt
 pip freeze > requirements.txt
 
 Add Procfile
+
+gunicorn lets us use html files in parallel(need to be updated)
