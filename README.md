@@ -12,3 +12,5 @@ pip freeze
 
 Python dependencies installed details added to requirements.txt
 pip freeze > requirements.txt
+
+Add Procfile
