@@ -2,7 +2,7 @@
 Guide to deploy in heroku using flask
 https://medium.com/@gitaumoses4/deploying-a-flask-application-on-heroku-e509e5c76524
 
-Install flask and gunicorn
+## Install flask and gunicorn
 $pip install flask gunicorn
 
 Upgrade pip to the latest version
